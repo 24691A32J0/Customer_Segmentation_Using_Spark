@@ -1,0 +1,94 @@
+{
+    "features": [
+        "Annual Income (k$)",
+        "Spending Score (1-100)"
+    ],
+    "optimal_k": 5,
+    "silhouette_score": 0.5546571631111091,
+    "wcss_inertia": 65.56840815571681,
+    "wcss_history": [
+        399.99999999999994,
+        269.69101219276394,
+        157.70400815035947,
+        108.92131661364357,
+        65.56840815571681,
+        55.057348270386,
+        44.86475569922557,
+        37.228187677585886,
+        32.39226763033116,
+        29.981897788243696
+    ],
+    "silhouette_history": {
+        "2": 0.3212707813918878,
+        "3": 0.46658474419000145,
+        "4": 0.4939069237513199,
+        "5": 0.5546571631111091,
+        "6": 0.5398800926790663,
+        "7": 0.5281492781108291,
+        "8": 0.4552147906587443,
+        "9": 0.4570853966942764,
+        "10": 0.4431713026508046
+    },
+    "cluster_profiles": {
+        "0": {
+            "cluster_id": 0,
+            "name": "Average / Balanced Customers",
+            "count": 81,
+            "percentage": 40.5,
+            "mean_income": 55.3,
+            "mean_spending": 49.52,
+            "mean_age": 42.7,
+            "description": "Middle-class income bracket with moderate, steady purchasing behavior. Represents the bulk of everyday steady revenue.",
+            "strategy": "Retain with seasonal promotions, cross-selling popular bestsellers, standard membership perks, and personalized recommendations.",
+            "color": "#9467bd"
+        },
+        "1": {
+            "cluster_id": 1,
+            "name": "High-Value / Premium Customers",
+            "count": 39,
+            "percentage": 19.5,
+            "mean_income": 86.54,
+            "mean_spending": 82.13,
+            "mean_age": 32.7,
+            "description": "High income earners who actively spend. Loyal, brand-conscious, and value premium quality over discounts.",
+            "strategy": "Target with VIP loyalty rewards, exclusive early access to product launches, personalized concierge service, and premium experiences.",
+            "color": "#2ca02c"
+        },
+        "2": {
+            "cluster_id": 2,
+            "name": "Potential / Aspirational Spenders",
+            "count": 22,
+            "percentage": 11.0,
+            "mean_income": 25.73,
+            "mean_spending": 79.36,
+            "mean_age": 25.3,
+            "description": "Lower to moderate income earners with very high shopping enthusiasm. Tend to be trend-driven and impulsive buyers.",
+            "strategy": "Offer flexible installment/EMI plans (BNPL), trendy micro-deals, engaging flash sales, and rewards programs to build sustainable loyalty.",
+            "color": "#1f77b4"
+        },
+        "3": {
+            "cluster_id": 3,
+            "name": "Cautious Savers / Frugal Affluent",
+            "count": 35,
+            "percentage": 17.5,
+            "mean_income": 88.2,
+            "mean_spending": 17.11,
+            "mean_age": 41.1,
+            "description": "Substantial income but very disciplined expenditure. Cautious decision makers who calculate ROI before buying.",
+            "strategy": "Send value-focused promotional campaigns, emphasize durability and warranties, provide member-only high-tier cashbacks, and highlight investment value.",
+            "color": "#ff7f0e"
+        },
+        "4": {
+            "cluster_id": 4,
+            "name": "Budget / Low-Spending Customers",
+            "count": 23,
+            "percentage": 11.5,
+            "mean_income": 26.3,
+            "mean_spending": 20.91,
+            "mean_age": 45.2,
+            "description": "Modest financial capacity with strictly restricted purchasing habits. Highly price-sensitive.",
+            "strategy": "Promote clearance discounts, bundle bargains, coupon codes, and essential everyday items with lowest price guarantees.",
+            "color": "#d62728"
+        }
+    }
+}
